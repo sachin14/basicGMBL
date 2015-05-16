@@ -26,6 +26,8 @@
     self.communicationManager = [GMBLCommunicationManager new];
     self.communicationManager.delegate = self;
     
+    //sachin
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(didReceiveNotification:)
                                                  name:@"PUSH_NOTIFICATION_RECEIVED"
